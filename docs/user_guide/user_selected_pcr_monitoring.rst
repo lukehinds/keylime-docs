@@ -5,7 +5,7 @@ User Selected PCR Monitoring
     This page is still under development and not complete. It will be so until
     this warning is removed.
 
-Using use the `tpm_policy` feature in Keylime, it is possible to mointor a
+Using the `tpm_policy` feature in Keylime, it is possible to mointor a
 remote machine for any given PCR.
 
 This can be used for Trusted Boot checks for both the `rhboot` shim loader and
@@ -33,7 +33,7 @@ Or you can add a node to using `keylime_tenant`::
 rhboot shim-loader
 ------------------
 
-The following is sourced from the `rhboot shim repository <https://github.com/rhboot/shim/blob/master/README.tpm`>_
+The following is sourced from the `rhboot shim repository <https://github.com/rhboot/shim/blob/master/README.tpm>`_
 please visit the upstream README to ensure information is still accurate
 
 The following PCRs are extended by shim:
@@ -69,8 +69,3 @@ PCR9:
 PCR14:
 - MokList, MokListX, and MokSBState will be extended into PCR14 if they are
   set.
-
-
-
-
-e
