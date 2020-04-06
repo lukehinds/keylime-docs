@@ -301,6 +301,8 @@ The following illustrates examples for SQLite and PostgreSQL
 SQLite
 ~~~~~~
 
+SQLite is the default driver::
+
     drivername = sqlite
     username = ''
     password = ''
@@ -313,7 +315,7 @@ PostgreSQL
 ~~~~~~~~~~
 
 For PostgreSQL you will need to install the database first and set up a user
-account.
+account::
 
     drivername = postgres
     username = keylime
